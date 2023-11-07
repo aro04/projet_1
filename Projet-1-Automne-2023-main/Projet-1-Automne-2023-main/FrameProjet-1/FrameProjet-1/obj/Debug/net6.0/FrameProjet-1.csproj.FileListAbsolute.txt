@@ -1,0 +1,15 @@
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\bin\Debug\net6.0\FrameProjet-1.exe
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\bin\Debug\net6.0\FrameProjet-1.deps.json
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\bin\Debug\net6.0\FrameProjet-1.runtimeconfig.json
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\bin\Debug\net6.0\FrameProjet-1.dll
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\bin\Debug\net6.0\FrameProjet-1.pdb
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.csproj.AssemblyReference.cache
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.AssemblyInfoInputs.cache
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.AssemblyInfo.cs
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.csproj.CoreCompileInputs.cache
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.dll
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\refint\FrameProjet-1.dll
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.pdb
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\FrameProjet-1.genruntimeconfig.cache
+C:\Cerveau\_Dev_\_DevLocal_\_Projets_\Projet-1-Automne-2022\FrameProjet-1\FrameProjet-1\obj\Debug\net6.0\ref\FrameProjet-1.dll
