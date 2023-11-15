@@ -156,7 +156,7 @@ void voirListePropriétaire()
 void voirNombreTotalAnimaux()
 {
     Console.WriteLine(" ---------------------------------------------------------------------------------------");
-    Console.WriteLine("|   NOMBRE DES ANIMAUX |  ");
+    Console.WriteLine("|   NOMBRE ANIMAUX |  ");
     Console.WriteLine(" ---------------------------------------------------------------------------------------");
     int NombreTotalDesAnimaux = 0;
 
@@ -209,12 +209,13 @@ void extraireAnimauxSelonCouleurs()
 }
 int TrouverDernierID()
 {
+    int DernierID;
     int i = 0;
     for ( i=0;i<10;i++)
     {
         if (tableau[i,1]!= null)
         {
-            i = i++;
+            DernierID = i++;
         } 
     }
     return i;
