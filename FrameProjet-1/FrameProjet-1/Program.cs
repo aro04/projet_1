@@ -250,15 +250,15 @@ void extraireAnimauxSelonCouleurs()
 }
 int TrouverDernierID()
 {
-    int DernierID = 0;
-    for (int i=0;i<10;i++)
+    int i = 0;
+    for ( i=0;i<10;i++)
     {
         if (tableau[i,1]!= null)
         {
-            DernierID = i;
+            i = i++;
         } 
     }
-    return DernierID;
+    return i;
 }
     
 
