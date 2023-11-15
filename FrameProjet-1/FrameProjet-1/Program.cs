@@ -5,47 +5,6 @@ using System.Runtime.InteropServices;
 using System.Security.Principal;
 
 string[,] tableau = new string[10, 7];
-tableau[0, 1] = "Lapin";
-tableau[1, 1] = "Chien";
-tableau[2, 1] = "Chat";
-tableau[3, 1] = "Poisson";
-tableau[4, 1] = "Lapin";
-tableau[5, 1] = "poule";
-
-tableau[0, 2] = "lim";
-tableau[1, 2] = "lou";
-tableau[2, 2] = "miou";
-tableau[3, 2] = "pat";
-tableau[4, 2] = "gricha";
-tableau[5, 2] = "milou";
-
-tableau[0, 3] = "1";
-tableau[1, 3] = "10";
-tableau[2, 3] = "2";
-tableau[3, 3] = "9";
-tableau[4, 3] = "7";
-tableau[5, 3] = "13";
-
-tableau[0, 4] = "11";
-tableau[1, 4] = "16";
-tableau[2, 4] = "4";
-tableau[3, 4] = "5";
-tableau[4, 4] = "8";
-tableau[5, 4] = "2";
-
-tableau[0, 5] = "bleu";
-tableau[1, 5] = "rouge";
-tableau[2, 5] = "rouge";
-tableau[3, 5] = "rouge";
-tableau[4, 5] = "violet";
-tableau[5, 5] = "violet";
-
-tableau[0, 6] = "Neny";
-tableau[1, 6] = "Dada";
-tableau[2, 6] = "Aro";
-tableau[3, 6] = "Kiady";
-tableau[4, 6] = "Sanda";
-tableau[5, 6] = "Feno";
 startTheMachine();
 
 
@@ -139,7 +98,7 @@ string choisirlacouleur()
     string couleur;
     do
     {
-        Console.WriteLine("veuillez saisir la couleur");
+        Console.WriteLine("veuillez saisir la couleur de l'animal: ");
         couleur = Console.ReadLine();
     }
 
@@ -149,20 +108,20 @@ string choisirlacouleur()
 
 void traiterAjoutAnimal(int i)
 {
-    Console.Write("veuillez saisir le type de l'animal: ");
+    Console.Write("veuillez saisir le type de l'animal: \n ");
     string type = Console.ReadLine();
     tableau[i, 1] = type;
-    Console.Write("veuillez saisir le nom de l'animal: ");
+    Console.Write("veuillez saisir le nom de l'animal:\n");
     string nom = Console.ReadLine();
     tableau[i, 2] = nom;
-    Console.Write("veuillez saisir l'age de l'animal: ");
+    Console.Write("veuillez saisir l'age de l'animal: \n");
     string age = Console.ReadLine();
     tableau[i, 3] = age;
-    Console.Write("veuillez saisir le poids de l'animal: ");
+    Console.Write("veuillez saisir le poids de l'animal: \n");
     string poids = Console.ReadLine();
     tableau[i, 4] = poids;
     tableau[i, 5] = choisirlacouleur();
-    Console.Write("veuillez saisir le nom du propriétaire de l'animal: ");
+    Console.Write("veuillez saisir le nom du propriétaire de l'animal: \n");
     string proprietaire = Console.ReadLine();
     tableau[i, 6] = proprietaire;
 }
