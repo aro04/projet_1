@@ -10,16 +10,42 @@ tableau[1, 1] = "Chien";
 tableau[2, 1] = "Chat";
 tableau[3, 1] = "Poisson";
 tableau[4, 1] = "Lapin";
+tableau[5, 1] = "poule";
+
 tableau[0, 2] = "lim";
 tableau[1, 2] = "lou";
 tableau[2, 2] = "miou";
 tableau[3, 2] = "pat";
 tableau[4, 2] = "gricha";
+tableau[5, 2] = "milou";
+
+tableau[0, 3] = "1";
+tableau[1, 3] = "10";
+tableau[2, 3] = "2";
+tableau[3, 3] = "9";
+tableau[4, 3] = "7";
+tableau[5, 3] = "13";
+
+tableau[0, 4] = "11";
+tableau[1, 4] = "16";
+tableau[2, 4] = "4";
+tableau[3, 4] = "5";
+tableau[4, 4] = "8";
+tableau[5, 4] = "2";
+
 tableau[0, 5] = "bleu";
 tableau[1, 5] = "rouge";
 tableau[2, 5] = "rouge";
 tableau[3, 5] = "rouge";
 tableau[4, 5] = "violet";
+tableau[5, 5] = "violet";
+
+tableau[0, 6] = "Neny";
+tableau[1, 6] = "Dada";
+tableau[2, 6] = "Aro";
+tableau[3, 6] = "Kiady";
+tableau[4, 6] = "Sanda";
+tableau[5, 6] = "Feno";
 startTheMachine();
 
 
@@ -85,11 +111,6 @@ void startTheMachine()
     
 
 }
-
-void selectChoice(string choice)
-{
-}
-
 
 void afficherMessageErreur()
 {
@@ -234,7 +255,7 @@ int TrouverDernierID()
     {
         if (tableau[i,1]!= null)
         {
-            DernierID = i+1;
+            DernierID = i;
         } 
     }
     return DernierID;
@@ -262,7 +283,13 @@ void retirerUnAnimalDeListe()
         if (ID == i.ToString())
         {
 
-            Console.WriteLine(tableau[i, 0] = " ", tableau[i,1]=" ", tableau[i, 2] =" ", tableau[i, 3] = " ", tableau[i, 4] = " ", tableau[i, 5] = " ", tableau[i, 6] = " ");
+            tableau[i, 0] = " ";
+            tableau[i, 1] = " ";
+            tableau[i, 2] = " ";
+            tableau[i, 3] = " ";
+            tableau[i, 4] = " ";
+            tableau[i, 5] = " ";
+            tableau[i, 6] = " ";
         }
         
     }
