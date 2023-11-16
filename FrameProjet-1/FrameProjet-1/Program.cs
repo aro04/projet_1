@@ -5,47 +5,6 @@ using System.Runtime.InteropServices;
 using System.Security.Principal;
 
 string[,] tableau = new string[10, 7];
-tableau[0, 1] = "Lapin";
-tableau[1, 1] = "Chien";
-tableau[2, 1] = "Chat";
-tableau[3, 1] = "Poisson";
-tableau[4, 1] = "Lapin";
-tableau[5, 1] = "Poisson";
-
-tableau[0, 2] = "Lap";
-tableau[1, 2] = "Chio";
-tableau[2, 2] = "Chaton";
-tableau[3, 2] = "Po";
-tableau[4, 2] = "Lapinou";
-tableau[5, 2] = "Polo";
-
-tableau[0, 3] = "1";
-tableau[1, 3] = "3";
-tableau[2, 3] = "5";
-tableau[3, 3] = "12";
-tableau[4, 3] = "8";
-tableau[5, 3] = "2";
-
-tableau[0, 4] = "20";
-tableau[1, 4] = "5";
-tableau[2, 4] = "4";
-tableau[3, 4] = "15";
-tableau[4, 4] = "17";
-tableau[5, 4] = "9";
-
-tableau[0, 5] = "bleu";
-tableau[1, 5] = "rouge";
-tableau[2, 5] = "rouge";
-tableau[3, 5] = "violet";
-tableau[4, 5] = "rouge";
-tableau[5, 5] = "violet";
-
-tableau[0, 6] = "dada";
-tableau[1, 6] = "neny";
-tableau[2, 6] = "kiady";
-tableau[3, 6] = "sanda";
-tableau[4, 6] = "aro";
-tableau[5, 6] = "feno";
 
 
 
